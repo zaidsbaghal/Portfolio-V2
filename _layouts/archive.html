@@ -16,7 +16,15 @@
         </div>
     </div>
     <body id="archive-body">
+        <h2 class="blog-posts-header">All Posts</h2>
         {{ content }}
+
+        {% for post in site.posts %}
+        <div class="blog-posts-container">
+            <a class="blog-posts-text" href="{{post.url}}">{{post.title}}</a><a> - {{ post.date | date: "%b %-d, %Y" }}</a>
+        </div>
+        {% endfor %}
+        
     </body>
 	{% include footer.html %}
 </html>

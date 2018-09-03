@@ -24,13 +24,15 @@
     </div>
     <body id="post-body">
       <div class="post-content">
+          {% for category in site.categories %}
+          <h4 class="post-categories">Categories: {{ category[0] }}</h3>
+          {% endfor %}
         <article>
             <p>{{ content }}</p>
         </article>
       </div>        
-      {% for category in site.categories %}
-        <h4>Categories: {{ category[0] }}</h3>
-      {% endfor %}
+
+      {% include sharebar.html %}
   </body>
 	{% include footer.html %}
 </html>

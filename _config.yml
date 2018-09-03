@@ -19,3 +19,4 @@ defaults:
       layout: posts
       author: Zaid S. Baghal
       featured-img: /assets/blogposts/img/da-kraplak-727110-unsplash.jpg
+      permalink: /:year/:month/:day/:title

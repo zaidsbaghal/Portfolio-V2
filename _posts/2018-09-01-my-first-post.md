@@ -1,5 +1,5 @@
 ---
-title: My First Post
+title: My First Test Post
 layout: posts
 categories: [test]
 ---

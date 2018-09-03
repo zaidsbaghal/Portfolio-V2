@@ -6,7 +6,7 @@
 <a id="top"></a>
   <nav>
     <ul id='navbar'>
-      <li><a href="#welcome-section">Home</a></li>
+      <li><a href="#top">Home</a></li>
       <li><a href="#about-me">About Me</a></li>
       <li><a href="#projects">Work</a></li>
       <li><a href="#blog">Blog</a></li>
@@ -67,28 +67,28 @@
   <div id="about-me-box">
     <h2 class="about-me-header">About Me</h2>
     <img id="me" src="https://image.ibb.co/kmX1je/me.jpg">
-    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus congue ante, a 
-      venenatis tellus posuere in. Ut vel ullamcorper massa, eu dignissim justo. Nam mi dui, vestibulum at pellentesque
-      sed, bibendum tempor arcu. Aliquam quis congue eros. Aliquam ut pretium diam. Quisque lacus nulla, scelerisque eu 
-      neque nec, congue fringilla magna. In elementum justo vel aliquam rhoncus. Suspendisse potenti.
+    <p class="about-text">Hi! My name is Zaid Baghal and I am currently in my fourth year at Rutgers University 
+      pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking. 
+      I use this website as a portfolio/blog as well as a showcase for all the things I am working on. 
+      Feel free to look around!
     </p>
-    <a href="#" class="more-about-me" target="_blank">More About Me</a>
+   <!-- <a href="#" class="more-about-me" target="_blank">More About Me</a> -->
   </div>
 </div>
 
 <div id="projects" class="work">
   <h2 class="work-header">Here are some of the things I've been working on</h2>
-  <a href="#" target="_blank" class="project project-tile">
+  <a href="https://github.com/zaidsbaghal/personal-portfolio" target="_blank" class="project project-tile">
     <img class="project-pic" src="https://image.ibb.co/coWfAK/simple_portfolio.png" alt="project">
-    <div class="project-title">Project 1</div>
+    <div class="project-title">Simple Website/Portfolio</div>
+  </a> 
+  <a href="https://github.com/zaidsbaghal/zaidsbaghal" target="_blank" class="project project-tile">
+    <img class="project-pic" src="https://image.ibb.co/gPXaEe/Jekyll.png" alt="project">
+    <div class="project-title">This website with jekyll integration</div>
   </a>
-  <a href="#" target="_blank" class="project project-tile">
-    <img class="project-pic" src="#" alt="project">
-    <div class="project-title">Project 2</div>
-  </a>
-  <a href="#" target="_blank" class="project project-tile">
-    <img class="project-pic" src="#" alt="project">
-    <div class="project-title">Project 3</div>
+  <a href="https://github.com/zaidsbaghal/randomizer-application" target="_blank" class="project project-tile">
+    <img class="project-pic" src="https://image.ibb.co/jLCNSz/Capture.png" alt="project">
+    <div class="project-title">Randomizer Application</div>
   </a>
   <a href="https://github.com/zaidsbaghal" class="show-all" target="_blank">See them all on GitHub</a>
 </div>
@@ -101,7 +101,7 @@
       <div class="project-title">{{post.title}} - {{ post.date | date: "%b %-d, %Y" }}</div>
     </a>
   {% endfor %}
-  <a href="{{site.baseurl}}/blog/" class="show-all" target="_blank">See all posts</a>
+  <a href="/blog/" class="show-all" target="_blank">See all posts</a>
 </div>
 
 <div id="contact" class="contact">
@@ -116,5 +116,5 @@
 
 <footer>
     <a id="topbtn" href="#top">Beam Me Up, Scotty!</a>
-    <p>Created by Zaid Baghal</p>
+    <p>Created by Zaid Baghal. © 2018 All Rights Reserved.</p>
 </footer>

@@ -1,3 +1,4 @@
+@import url(monokai.css);
 
 html, body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -693,11 +694,14 @@ footer p {
 
 .post-content {
   padding-top: 2%;
+  padding-bottom: 2%;
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
   width: 80%;
   height: fit-content;
+  line-height: 22px;
+  font-size: 18px;
 }
 
 /* Archive */
@@ -720,7 +724,7 @@ footer p {
   padding-top: 0;
   height: fit-content;
   color: whitesmoke; 
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75); 
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.95); 
 }
 
 .archive-img {
@@ -739,7 +743,36 @@ footer p {
 .archive-body {
   height: fit-content;
   padding-top: 2%;
+  padding-bottom: 2%;
   margin-left: 10%;
   margin-right: 10%;
   background: whitesmoke;
+}
+
+.blog-posts-header{
+  font-size: 32px;
+}
+
+.blog-posts-container{
+  padding-bottom: 2%;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.blog-posts-text{
+  text-decoration: none;
+  color: #548CA4;
+}
+
+.blog-posts-text:hover{
+  opacity: 0.7;
+}
+
+.img{
+  display: block;
+  width: 50%;
+  height: 50%;
+  border-radius: 8px;
+  margin-right: auto;
+  margin-left: auto;
 }
