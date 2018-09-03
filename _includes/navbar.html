@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<nav>
+        <ul id='navbar'>
+          <li><a href="{{site.baseurl}}">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+</nav>
+    
+      <!-- Script for Nav Bar -->
+    
+      <script>
+        var nav = document.getElementById('navbar');
+          
+          window.onscroll = function(){
+    
+              if (window.pageYOffset > 50) {
+    
+                nav.style.background = "#2E3B39";
+                nav.style.opacity = ".9";
+              } else { 
+    
+                nav.style.background = "transparent";
+                nav.style.boxShadow = "none";
+              }
+          }
+      </script>
+    

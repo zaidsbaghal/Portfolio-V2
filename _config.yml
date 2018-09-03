@@ -1,0 +1,21 @@
+name: Zaid S. Baghal
+title: Zaid S. Baghal
+markdown: kramdown
+author: Zaid S. Baghal
+baseurl: "zaidsbaghal.com"
+url: ""
+permalink: pretty
+
+kramdown: 
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: posts
+      author: Zaid S. Baghal
+      featured-img: /assets/blogposts/img/da-kraplak-727110-unsplash.jpg
