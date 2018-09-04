@@ -5,6 +5,7 @@ author: Zaid S. Baghal
 baseurl: "www.zaidsbaghal.com"
 url: ""
 permalink: pretty
+description: Hi! My name is Zaid Baghal and I am currently in my fourth year at Rutgers University pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking. I use this website as a portfolio/blog as well as a showcase for all the things I am working on. Feel free to look around!
 
 kramdown: 
   input: GFM
@@ -20,3 +21,6 @@ defaults:
       author: Zaid S. Baghal
       featured-img: /assets/blogposts/img/da-kraplak-727110-unsplash.jpg
       permalink: /:year/:month/:day/:title
+
+Collections:
+  - projects

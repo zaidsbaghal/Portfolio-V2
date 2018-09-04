@@ -594,6 +594,11 @@ footer p {
 
 @media only screen and (min-width: 150px) and (max-width: 700px) {
 
+    #welcome-desc{
+      font-size: 26px;
+    }
+
+
     nav ul {
         text-align: center;
         position: fixed;
