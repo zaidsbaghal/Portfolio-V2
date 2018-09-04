@@ -33,6 +33,10 @@
       </div>        
 
       {% include sharebar.html %}
+      
+      {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+      {% endif %}
   </body>
 	{% include footer.html %}
 </html>

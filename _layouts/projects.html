@@ -24,7 +24,10 @@
           <div class="project-title">{{project.title}}</div>
         </a>
       {% endfor %}
-        
+      
+        {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
     </body>
 	{% include footer.html %}
 </html>

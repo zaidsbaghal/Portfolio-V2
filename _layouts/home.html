@@ -114,6 +114,10 @@
   <a id="instagram-contact" href="https://www.instagram.com/zaidsbaghal/" target="_blank" class="fa fa-instagram insta contact-icons"></a>
 </div>
 
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+
 <footer>
     <a id="topbtn" href="#top">Beam Me Up, Scotty!</a>
     <p>Created by Zaid Baghal. © 2018 All Rights Reserved.</p>

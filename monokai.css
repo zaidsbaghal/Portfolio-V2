@@ -6,6 +6,8 @@
     border-radius: 8px;
     margin: 1%;
     font-size: 18px;
+    width: 95%;
+    overflow-x: auto;
 }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
