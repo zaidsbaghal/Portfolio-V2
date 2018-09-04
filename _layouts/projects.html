@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/../../style.css">
+
+<html id="archive">
+  <a name="top"></a>
+    <head>  
+        {% include navbar.html %} 
+    </head>
+    <div class="archive-welcome">
+        <div class="archive-img">
+            <div class="archive-img-content">
+                <h1>Projects</h1>
+            </div>
+        </div>
+    </div>
+    <body id="archive-body">
+        <h2 class="blog-posts-header">Current Projects</h2>
+        {{ content }}
+        {% for projects in site.projects %}
+        <a href="{{ projects.url }}" target="_blank" class="project project-tile">
+          <img class="project-pic" src="{{ project.featured-img }}" alt="project">
+          <div class="project-title">{{project.title}}</div>
+        </a>
+      {% endfor %}
+        
+    </body>
+	{% include footer.html %}
+</html>

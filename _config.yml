@@ -23,4 +23,5 @@ defaults:
       permalink: /:year/:month/:day/:title
 
 Collections:
-  - projects
+    projects:
+      output: true

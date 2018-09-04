@@ -642,6 +642,10 @@ footer p {
         text-align: right;
         list-style: none;      
     }
+    
+    .content-container:after, .content-container:before{
+        font-size: 62px;
+    }
 
     #me {
         width: 100%;
