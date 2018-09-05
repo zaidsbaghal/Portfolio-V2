@@ -24,10 +24,8 @@
             <a class="blog-posts-text" href="{{post.url}}">{{post.title}}</a><a> - {{ post.date | date: "%b %-d, %Y" }}</a>
         </div>
         {% endfor %}
-
-        {% if jekyll.environment == 'production' %}
+        
         {% include analytics.html %}
-        {% endif %}
         
     </body>
 	{% include footer.html %}
