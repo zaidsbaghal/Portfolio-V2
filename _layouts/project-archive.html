@@ -9,7 +9,7 @@
         {% include navbar.html %} 
     </head>
     <div class="archive-welcome">
-        <div class="archive-img">
+        <div class="projects-img">
             <div class="archive-img-content">
                 <h1>Projects</h1>
             </div>
@@ -18,8 +18,8 @@
     <body id="archive-body">
         <h2 class="blog-posts-header">Current Projects</h2>
         {{ content }}
-        {% for projects in site.projects %}
-        <a href="{{ projects.url }}" target="_blank" class="project project-tile">
+        {% for project in site.projects %}
+        <a href="{{ project.url }}" target="_blank" class="project-dark project-tile">
           <img class="project-pic" src="{{ project.featured-img }}" alt="project">
           <div class="project-title">{{project.title}}</div>
         </a>

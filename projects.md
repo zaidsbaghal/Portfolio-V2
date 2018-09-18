@@ -1,4 +1,4 @@
 ---
-layout: projects
+layout: project-archive
 permalink: /projects/
 ---
