@@ -5,7 +5,19 @@ author: Zaid S. Baghal
 baseurl: ""
 url: ""
 permalink: pretty
+<<<<<<< HEAD
 description: Hi! My name is Zaid Baghal and I am currently in my junior year at Rutgers University pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking. I use this website as a portfolio/blog as well as a showcase for all the things I am working on. Parts of htis website are still under construction. Feel free to look around!
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+description: Description
+=======
+description: Hi! My name is Zaid Baghal and I am currently in my junior year at Rutgers University pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking. I use this website as a portfolio/blog as well as a showcase for all the things I am working on. Parts of htis website are still under construction. Feel free to look around!
+>>>>>>> parent of 24a0bb0... updates
+=======
+description: Hi! My name is Zaid Baghal and I am currently in my junior year at Rutgers University pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking. I use this website as a portfolio/blog as well as a showcase for all the things I am working on. Feel free to look around!
+>>>>>>> parent of 2f22587... edits
+>>>>>>> 5397d30c6c5c98977b359a8e9417cd05459a2a38
 
 kramdown: 
   input: GFM
@@ -27,9 +39,22 @@ defaults:
       type: "projects"
     values:
       layout: project
+<<<<<<< HEAD
+<<<<<<< HEAD
+      featured-img: 
+      github-link: 
+=======
+      featured-img: https://image.ibb.co/htduXz/malcolm_lightbody_698733_unsplash.jpg
+
+>>>>>>> parent of 24a0bb0... updates
+=======
       featured-img: https://image.ibb.co/htduXz/malcolm_lightbody_698733_unsplash.jpg
       github-link: https://github.com/zaidsbaghal
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 2f22587... edits
+>>>>>>> 5397d30c6c5c98977b359a8e9417cd05459a2a38
     
 collections:
   projects:
