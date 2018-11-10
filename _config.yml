@@ -5,7 +5,7 @@ author: Zaid S. Baghal
 baseurl: ""
 url: ""
 permalink: pretty
-description: Hi! My name is Zaid Baghal and I am currently in my junior year at Rutgers University pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking. I use this website as a portfolio/blog as well as a showcase for all the things I am working on. Feel free to look around!
+description: Hi! My name is Zaid Baghal and I am currently in my junior year at Rutgers University pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking. I use this website as a portfolio/blog as well as a showcase for all the things I am working on. Parts of htis website are still under construction. Feel free to look around!
 
 kramdown: 
   input: GFM
@@ -29,6 +29,7 @@ defaults:
       layout: project
       featured-img: https://image.ibb.co/htduXz/malcolm_lightbody_698733_unsplash.jpg
       github-link: https://github.com/zaidsbaghal
+
     
 collections:
   projects:

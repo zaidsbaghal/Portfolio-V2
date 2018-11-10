@@ -547,6 +547,28 @@ nav ul li a:hover {
     margin: 10px;
 }
 
+/* Sharebar */
+
+ul.share-buttons{
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 5px;
+  width: 100px;
+  overflow: hidden;
+}
+
 /* Footer */
 
 footer {
@@ -715,16 +737,7 @@ footer p {
   height: fit-content;
   line-height: 22px;
   font-size: 18px;
- 
-  
 }
-
-.post-content:link{
-  text-decoration: none;
-  text-decoration-color: #007bb5;
-}
-
-
 
 /* Archive */
 
@@ -800,7 +813,7 @@ footer p {
 }
 
 .projects-img {
-  background-image: url("https://image.ibb.co/h4O7wL/christopher-burns-437768-unsplash.jpg");
+  background-image: url("https://image.ibb.co/mOeZXz/ash_edmonds_510566_unsplash.jpg");
   margin: 0;
   background-size: cover;
   background-position: center;
@@ -820,12 +833,4 @@ footer p {
 
 .project-dark:hover {
   opacity: 0.7;
-}
-
-.githubbtn{
-  text-decoration: none;
-}
-
-.githubbtn:hover{
-opacity: 0.7;
 }
