@@ -1,6 +1,6 @@
 ---
-title: Personal Portfolio (This Website)
-github-link: https://github.com/zaidsbaghal/personal-portfolio
+title: Portfolio (This Website)
+github-link: https://github.com/zaidsbaghal/Portfolio
 featured-img: https://image.ibb.co/itvMje/intro.png
 ---
 
