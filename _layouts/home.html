@@ -78,19 +78,13 @@
 
 <div id="projects" class="work">
   <h2 class="work-header">Projects</h2>
-  <a href="https://github.com/zaidsbaghal/personal-portfolio" target="_blank" class="project project-tile">
-    <img class="project-pic" src="https://image.ibb.co/coWfAK/simple_portfolio.png" alt="project">
-    <div class="project-title">Simple Website/Portfolio</div>
-  </a> 
-  <a href="https://github.com/zaidsbaghal/zaidsbaghal" target="_blank" class="project project-tile">
-    <img class="project-pic" src="https://image.ibb.co/gPXaEe/Jekyll.png" alt="project">
-    <div class="project-title">This website with jekyll integration</div>
+  {% for project in site.projects limit:3 %}
+  <a href="{{ project.url }}" target="_blank" class="project project-tile">
+    <img class="project-pic" src="{{ project.featured-img }}" alt="project">
+    <div class="project-title">{{project.title}}</div>
   </a>
-  <a href="https://github.com/zaidsbaghal/randomizer-application" target="_blank" class="project project-tile">
-    <img class="project-pic" src="https://image.ibb.co/jLCNSz/Capture.png" alt="project">
-    <div class="project-title">Randomizer Application</div>
-  </a>
-  <a href="/projects/" class="show-all" target="_blank">See all projects</a>
+{% endfor %}
+  <a href="/projects/" class="show-all" target="_blank">See all projects</a> 
 </div>
 
 <div id="blog" class="blog-section">
