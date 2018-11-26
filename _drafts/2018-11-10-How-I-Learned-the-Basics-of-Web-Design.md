@@ -10,12 +10,11 @@ And finally, I wanted the ability to blog. Clearly, I was able to accomplish thi
 the steps I took to accomplish this goal within one summer and how you can do something similar and learn how to build 
 your own from scratch. THIS IS NOT A STEP BY STEP GUIDE. I am simply telling you the personal steps that I took. 
 
-## Thing I learned:
-    ..* HTML
-    ..* CSS
+## Things I learned:
+
+    ..* HTML and CSS
     ..* Basic JavaScript
     ..* Jekyll and Liquid Syntax
-    ..* Markdown
 
     While the above are not neccessarily difficult (especially with an introductory level computer science background) it 
 comes with its unique challenges. Obviously, the hardest thing to achieve with something like this is continuous 
@@ -29,7 +28,7 @@ and try again later.
     You want to set a goal of about 3 hours a day. Granted you can do more or less as long as you stay consistent and 
 do this daily. 
 
-### HTML
+### HTML and CSS
 
      I started with a free course like the Responsive Web Design Certification on freecodecamp.com. This offered an 
 excellent introduction to HTML syntax and I began to grasp things quicker and quicker. After a while you may not 
@@ -37,4 +36,22 @@ even need to finish the course as things will become very repetitive and really 
 syntax down and move on to your own projects. I would recommend starting with the Responsive Web Design Projects at 
 the end of the course. 
     Once I completed all the projects for this course I honestly felt that I could finally learn how to build my own
-site. From here 
+site. The last project on freecodecamp.com is actually a portfolio project. You can use this as a backbone for your own site 
+and build off of it. Use recourses like google and stack overflow. Don;t be afraid to google questions and find answers
+to the challenges you are having when implementing something. CS is unlike any other subject when learning something
+as when you are struggling to understand something google it and look at similar things that people have built in order
+to better implement your own idea. 
+
+### Basic JavaScript
+
+    Arguably, this isn't really neccessary to build your website at all. It really depends on how fancy you want to make it.
+For example, the animations on the home page of my [personal website](\projects\Portfolio.md) have a very simple 
+script written in JavaScript. Otherwise, this isn't really necessary for a beginner unless you aim to impress. 
+    It was rather easy for me to pickup as I already had a background in Java from college work. If you insist on learning I 
+recommend looking up some YouTube videos on it before you attempt to write a script. Then I would google basic HTML animations
+and scripts to get your feet wet and play around with your website. 
+
+### Jekyll and Liquid Syntax
+
+    This is where the actual blog part of the wbsite is built. Because we are not building a blog from total scratch
+    we are going to use something called a Static Site Generator like Jekyll. 
