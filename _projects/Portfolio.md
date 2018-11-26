@@ -1,12 +1,13 @@
 ---
 title: Portfolio (This Website)
 github-link: https://github.com/zaidsbaghal/Portfolio
-featured-img: https://image.ibb.co/itvMje/intro.png
+featured-img: https://image.ibb.co/itvMje/intro.png\
+tags: Portfolio
 ---
 
-This is the project page for this website. Although this is a separate github repository then the one that is running the ebsite you are on right now, I keep this github link updated with the newst features I add to my personal website. 
+This is the project page for this website. Although this is a separate GitHub repository than the one that is running the website you are on right now, I keep this GitHub link updated with the newest features I add to my personal website. 
 
-The Blog aspect of this website is built using [Jekyll](https://jekyllrb.com/). Jekyll offers a lot of cool features and is extremely simple to use once you get over the small learning curve. The rest of the website Is built using HTML, CSS and Javascript. 
+The Blog aspect of this website is built using [Jekyll](https://jekyllrb.com/). Jekyll offers a lot of cool features and is extremely simple to use once you get over the small learning curve. The rest of the website Is built using HTML, CSS and JavaScript. 
 
 I started building this at the beginning of Summer 2018 and had most of it finished by September. 
 I am still adding constant improvements to this website as time goes along and whenever I am not doing school work. 
