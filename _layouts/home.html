@@ -89,7 +89,7 @@
 
 <div id="blog" class="blog-section">
   <h2 class="blog-header">Blog posts</h2>
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts reversed limit:3 %}
     <a href="{{ post.url }}" target="_blank" class="project project-tile">
       <img class="project-pic" src="{{ post.featured-img }}" alt="project">
       <div class="project-title">{{post.title}} - {{ post.date | date: "%b %-d, %Y" }}</div>

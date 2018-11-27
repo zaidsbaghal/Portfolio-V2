@@ -3,6 +3,7 @@ title: How I learned the Basics of Web Design in 2 Months
 layout: posts
 featured-img: /assets/blogposts/img/roland-denes-800152-unsplash.jpg
 ---
+
 ## Background
 
     At the beginning of Summer 2018 I had one goal in mind. I wanted my own website. I wanted my website to look nice. 
