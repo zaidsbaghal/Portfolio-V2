@@ -1,5 +1,5 @@
 ---
-title: How I learned the Basics of Web Design in 2 Months
+title: How I learned the Basics of Web Design
 layout: posts
 featured-img: /assets/blogposts/img/roland-denes-800152-unsplash.jpg
 ---
@@ -12,10 +12,10 @@ your own from scratch. THIS IS NOT A STEP BY STEP GUIDE. I am simply telling you
 
 ## Things I learned:
 
-   ..* HTML and CSS
-   ..* Basic JavaScript
-   ..* Things to Implement
-   ..* Jekyll and Liquid Syntax
+   * HTML and CSS
+   * Basic JavaScript
+   * Things to Implement
+   * Jekyll and Liquid Syntax
 
    While the above are not necessarily difficult (especially with an introductory level computer science background) it 
 comes with its unique challenges. Obviously, the hardest thing to achieve with something like this is continuous 
@@ -66,11 +66,11 @@ separate layouts and includes in order to make my website more fluid and continu
 
 Here are some things to consider adding to your website: 
 
-   ..* Social buttons for sharing posts
-   ..* A button to download your Resume/CV
-   ..* A button that takes you to the top of the page
-   ..* An archive for your blog posts
-   ..* A navigation bar that faded from transparent to solid and is always visible when scrolling
+   * Social buttons for sharing posts
+   * A button to download your Resume/CV
+   * A button that takes you to the top of the page
+   * An archive for your blog posts
+   * A navigation bar that faded from transparent to solid and is always visible when scrolling
 
 ## Conclusion
 
