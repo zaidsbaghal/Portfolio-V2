@@ -14,6 +14,7 @@ your own from scratch. THIS IS NOT A STEP BY STEP GUIDE. I am simply telling you
 
     ..* HTML and CSS
     ..* Basic JavaScript
+    ..* Things to Implement
     ..* Jekyll and Liquid Syntax
 
     While the above are not neccessarily difficult (especially with an introductory level computer science background) it 
@@ -53,5 +54,26 @@ and scripts to get your feet wet and play around with your website.
 
 ### Jekyll and Liquid Syntax
 
-    This is where the actual blog part of the wbsite is built. Because we are not building a blog from total scratch
-    we are going to use something called a Static Site Generator like Jekyll. 
+    This is where the actual blog part of the website is built. Because we are not building a blog from total scratch
+we are going to use something called a Static Site Generator like Jekyll. To get started using Jekyll, you want to have 
+the basic html skeleton of your website down. Once you are done with the basic skeleton you can implement Jekyll by 
+following the quick start guide [here](https://jekyllrb.com/docs/). I also used 
+a [YouTube guide](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB) just to get myself familiar 
+with the liquid syntax that Jekyll uses. Once I learned the basics, I went ahead and separated my html skeleton into 
+separate layouts and includes in order to make my website more fluid and continuous throughout every page. 
+
+### Things to implement
+
+    Here are some things to consider adding to your website: 
+
+    ..* Social buttons for sharing posts
+    ..* A button to download your Resume/CV
+    ..* A button that takes you to the top of the page
+    ..* An archive for your blog posts
+    ..* A navigation bar that faded from transparent to solid and is always visible when scrolling
+
+## Conclusion
+
+    Overall this was not a difficult thing to do. The most important thing is staying motivated and consistently working 
+on your personal project daily and be willing to take a break when you need it. Consistency is key though, after taking 
+a break make sure you return to your work. Constantly, be looking to improve. 
