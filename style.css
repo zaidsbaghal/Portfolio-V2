@@ -416,8 +416,6 @@ nav ul li a:hover {
     color: white;
     display: inline-block;
     overflow: hidden;
-    border: 2px solid white;
-    border-radius: 8px;
     height: 220px;
     width: 280px;
     margin: 40px 100px;
