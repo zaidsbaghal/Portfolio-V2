@@ -413,9 +413,12 @@ nav ul li a:hover {
 
 .project {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     display: inline-block;
+    white-space: nowrap;
     overflow: hidden;
+    border: .5px solid whitesmoke;
+    border-radius: 8px;
     height: 220px;
     width: 280px;
     margin: 40px 100px;
@@ -428,7 +431,12 @@ nav ul li a:hover {
 }
 
 .project-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     padding-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
     font-weight: bold;
 }
 
@@ -737,6 +745,10 @@ footer p {
   font-size: 18px;
 }
 
+.post-categories {
+  text-align: center;
+}
+
 /* Archive */
 
 #archive {
@@ -822,7 +834,7 @@ footer p {
   color: #2E3B39;
   display: inline-block;
   overflow: hidden;
-  border: 2px solid #2E3B39;
+  border: .5px solid #2E3B39;
   border-radius: 8px;
   height: 220px;
   width: 280px;

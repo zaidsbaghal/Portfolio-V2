@@ -2,6 +2,7 @@
 title: How I learned the Basics of Web Design
 layout: posts
 featured-img: /assets/blogposts/img/roland-denes-800152-unsplash.jpg
+categories: [howto] 
 ---
 ## Background
 
