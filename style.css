@@ -357,6 +357,7 @@ nav ul li a:hover {
     margin-bottom: 30px;
     width: 35%;
     height: auto;
+    border: .5px solid #2E3B39;
     border-radius:8px;
 }
 
