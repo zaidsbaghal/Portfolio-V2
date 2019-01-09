@@ -1,7 +1,7 @@
 ---
 title: How I learned the Basics of Web Design
 layout: posts
-featured-img: /assets/blogposts/img/roland-denes-800152-unsplash.jpg
+featured-img: https://i.ibb.co/R0JRDVj/sai-kiran-anagani-61187-unsplash.jpg
 categories: [howto] 
 ---
 ## Background

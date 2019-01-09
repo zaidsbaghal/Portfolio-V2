@@ -57,7 +57,7 @@ nav ul li a:hover {
   padding-top: 35vh;
   height: min-content;
   font-size: 32px;
-  background-image: url(https://image.ibb.co/itvMje/intro.png);
+  background-image: url(https://i.ibb.co/58k2S6y/andrea-cau-51160-unsplash.jpg);
   background-size: cover;
   color: whitesmoke;
   width: 100%;
@@ -398,7 +398,7 @@ nav ul li a:hover {
 
 .work {
     padding-top: 60px;
-    background: #548CA4;
+    background: #1b3649;
     margin: 0;
     padding-bottom: 60px;
     color: white;
@@ -468,7 +468,7 @@ nav ul li a:hover {
 
 .blog-section {
   color: white;
-  background: #8FAAB3;
+  background: #181c1f;
   margin: 0;
   height: fit-content;
   padding-top: 60px;
@@ -777,7 +777,7 @@ footer p {
   margin: 0;
   background-size: cover;
   background-position: center;
-  background-image: url("https://image.ibb.co/fvhQxz/Archive.png" )
+  background-image: url("https://i.ibb.co/6wCwL0f/blog-archive.jpg" )
 }
 
 .archive-img-content {
