@@ -24,7 +24,7 @@ nav ul {
   padding: 0;
   margin: 0;
   background: transparent;
-  color: whitesmoke;
+  color: #e8e8e8;
   font-size: 20px;
   transition: 1s;
   z-index: 10000;
@@ -38,7 +38,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: whitesmoke;
+  color: #e8e8e8;
   text-decoration: none;
   
 }
@@ -70,7 +70,7 @@ nav ul li a:hover {
   height: 260px;
   font-size: 64px;
   line-height: 54px;
-  color: whitesmoke;
+  color: #e8e8e8;
 }
 
 .content-container {
@@ -264,7 +264,7 @@ nav ul li a:hover {
 }
 
 .contacts-intro {
-  color: white;
+  color: #e8e8e8;
   padding: 20px;
   font-size: 60px;
   width: 50px;
