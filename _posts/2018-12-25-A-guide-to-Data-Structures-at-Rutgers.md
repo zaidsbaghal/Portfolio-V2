@@ -1,7 +1,7 @@
 ---
 title: A Guide to Data Structures at Rutgers University
 layout: posts
-featured-img: https://i.ibb.co/dKB5WMt/nathan-dumlao-572047-unsplash.jpg
+featured-img: https://i.ibb.co/yRXtHGB/dsbp.jpg
 categories: [guide] 
 published: true
 ---
