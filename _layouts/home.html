@@ -18,14 +18,14 @@
 
   <script>
     var nav = document.getElementById('navbar');
-      
+
       window.onscroll = function(){
 
       	if (window.pageYOffset > 50) {
 
             nav.style.background = "#181c1f";
             nav.style.opacity = ".9";
-      	} else { 
+      	} else {
 
             nav.style.background = "transparent";
             nav.style.boxShadow = "none";
@@ -56,7 +56,7 @@
     <a href="https://www.instagram.com/zaidsbaghal/" target="_blank" class="fa fa-instagram contacts-intro"></a>
   </div>
   <div>
-    <a href="{{ site.baseurl }}/ZaidSBaghalResume.pdf" class="resume" target="_blank">Résumé</a>
+    <a href="assets/ZaidSBaghalResume.pdf" class="resume" target="_blank">Résumé</a>
   </div>
   <div class="arrow bounce">
       <a id="welcome-arrow" class="fa fa-arrow-down fa-2x" href="#about-me"></a>
@@ -67,9 +67,9 @@
   <div id="about-me-box">
     <h2 class="about-me-header">About Me</h2>
     <img id="me" src="https://image.ibb.co/kmX1je/me.jpg">
-    <p class="about-text">Hi! My name is Zaid Baghal and I am currently in my third year at Rutgers University 
-      pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking. 
-      I use this website as a portfolio/blog as well as a showcase for all the things I am working on. 
+    <p class="about-text">Hi! My name is Zaid Baghal and I am currently in my third year at Rutgers University
+      pursuing a degree in Computer Science. Some of my hobbies include running, drawing, photography, and filmmaking.
+      I use this website as a portfolio/blog as well as a showcase for all the things I am working on.
       Feel free to look around!
     </p>
    <!-- <a href="#" class="more-about-me" target="_blank">More About Me</a> -->
@@ -84,7 +84,7 @@
     <div class="project-title">{{project.title}}</div>
   </a>
 {% endfor %}
-  <a href="/projects/" class="show-all" target="_blank">See all projects</a> 
+  <a href="/projects/" class="show-all" target="_blank">See all projects</a>
 </div>
 
 <div id="blog" class="blog-section">
