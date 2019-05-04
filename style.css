@@ -357,7 +357,6 @@ nav ul li a:hover {
     margin-bottom: 30px;
     width: 35%;
     height: auto;
-    border: .5px solid #181c1f;
     border-radius: 50%;
 }
 
@@ -419,7 +418,7 @@ nav ul li a:hover {
     white-space: nowrap;
     overflow: hidden;
     border: .5px solid #e8e8e8;
-    border-radius: 30px/10px;
+    border-radius: 15px;
     height: 220px;
     width: 280px;
     margin: 40px 100px;
@@ -836,7 +835,7 @@ footer p {
   display: inline-block;
   overflow: hidden;
   border: .5px solid #181c1f;
-  border-radius: 30px/10px;
+  border-radius: 15px;
   height: 220px;
   width: 280px;
   margin: 40px 100px;
