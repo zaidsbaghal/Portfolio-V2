@@ -7,8 +7,8 @@ published: true
 ---
 
 Ahh yes, the dreaded Data Structures. Referred to by many as the Computer Science weed out class. This separates the puppies
-from the bulldogs. The boys from the men (not really men just boys that managed to pass). And the "eh ill do it later" student from the "I should do this now" student.
-However, I will not lie to you, the class really is not that hard if you put in the work. Everything is graded very 
+from the bulldogs. The boys from the men (not really men just boys that managed to pass). And the "eh ill do it later" student from the "I should do this now" student. 
+I will not lie to you, the class is really difficult but it is not that hard if you put in the work. Everything is graded very 
 fairly and there are plenty of recourses online to get you prepared for any project or exam. 
 
 Even though I just finished taking this course there were a lot of things that I could have done in order to ensure a smoother ride throughout the process. In this blog post I will discuss some of these things to ease your transition from the introductory classes.
@@ -36,7 +36,6 @@ These are not set in stone. These are solely based on my own research from profe
 * B  - Low 700s
 * C+ - Low 600s
 * C  - Low 500s (Magic number yay)
-* D  - High 400s
 
 To pass the class your safest bet is getting above 500 as that seems to be the cutoff for most students. Its often considered to be "the magic number" for making it through the class. However, this isn't always the case but I would bet that it is pretty safe. The magic number varies from year to year, so be careful. For me personally, the magic number was 480 and for others it was as high as 520, so try to stay above the average on all assignments. Also, some professors do not give out D's and simply fail you for getting lower than a C, keep that in mind for your GPA's sake.
 
@@ -44,7 +43,7 @@ To pass the class your safest bet is getting above 500 as that seems to be the c
 
 Please understand that your goal should not be to just pass. You should honestly aim to learn as much as you can and to try to truly understand the concepts you learn. This is because Data Structures (and algorithms) are core concepts in computer science and you will see them repeatedly come up for the rest of your college career as well as for internship/job interviews. 
 
-Given that info, if you are desperate to pass or are only taking this class out of interest, There are strategies you can follow to get the highest possible grade. 
+Given that info, if you are desperate to pass or are only taking this class out of interest, there are strategies you can follow to get the highest possible grade. 
 
 The strategies are as follows: 
 
@@ -86,7 +85,7 @@ This is pretty much all you need to know in order to do well in Data Structures.
 
 * Your recitation really depends on the TA you have. Some are really great and others are okay. Considering the fact that all you really do is go over the problem sets it isn't really necessary unless you are really lost. In my opinion, I would go to the first few to see how good of a teacher your TA is and then consider not going unless you really need help. 
 
-* A lot of people cheat and get caught so don't risk it otherwise you'll be set back a whole semester and you will most likely bomb any CS interview. 
+* A lot of people cheat and get caught so don't risk it. Otherwise you'll be set back a whole semester and you will most likely bomb any CS interview. 
 
 ## Conclusion
 
