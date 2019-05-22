@@ -3,6 +3,7 @@ title: Portfolio (This Website)
 github-link: https://github.com/zaidsbaghal/Portfolio
 featured-img: https://image.ibb.co/itvMje/intro.png\
 tags: Portfolio
+published: true
 ---
 
 This is the project page for this website. Although this is a separate GitHub repository than the one that is running the website you are on right now, I keep this GitHub link updated with the newest features I add to my personal website. 
