@@ -419,8 +419,8 @@ nav ul li a:hover {
     overflow: hidden;
    /* border: .5px solid #e8e8e8; */
     border-radius: 15px;
-    height: 220px;
-    width: 280px;
+    height: 340px;
+    width: 380px;
     margin: 40px 100px;
 }
 
@@ -848,8 +848,8 @@ footer p {
   overflow: hidden;
  /* border: .5px solid #181c1f; */
   border-radius: 15px;
-  height: 220px;
-  width: 280px;
+  height: 340px;
+  width: 380px;
   margin: 40px 100px;
 }
 
