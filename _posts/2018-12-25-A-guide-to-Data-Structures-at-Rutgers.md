@@ -6,6 +6,8 @@ categories: [guide]
 published: true
 ---
 
+## Intro
+
 Ahh yes, the dreaded Data Structures. Referred to by many as the Computer Science weed out class. This separates the puppies
 from the bulldogs. The boys from the men (not really men just boys that managed to pass). And the "eh ill do it later" student from the "I should do this now" student. 
 I will not lie to you, the class is really difficult but it is not that hard if you put in the work. Everything is graded very 
