@@ -599,6 +599,12 @@ footer p {
 
 /* Responsive Desgin */
 
+@media only screen and (min-width: 150px) and (max-width: 700px) {
+  .project-dark {
+    margin: 40px 0;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   nav ul {
       text-align: center;
@@ -679,10 +685,6 @@ footer p {
 
     #me {
         width: 100%;
-    }
-
-    .project-dark {
-      margin: 40px 0;
     }
 }
 
