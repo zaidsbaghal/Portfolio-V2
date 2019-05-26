@@ -856,6 +856,16 @@ footer p {
         width: 100%;
     }
 
+    .post-welcome-text {
+      padding-top: 10%;
+      padding-bottom: 10%;
+      font-size: 28px;
+    }
+
+    ul.share-buttons{
+      padding-left: 0px;
+    }
+
     .project-dark {
       margin: 40px 0;
     }
