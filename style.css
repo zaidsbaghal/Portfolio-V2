@@ -609,10 +609,6 @@ footer p {
   .project {
       margin: 40px 0;
   }
-
-  .project-dark {
-    margin: 40px 0;
-}
 }
 
 @media only screen and (max-width: 367px) {
@@ -683,6 +679,10 @@ footer p {
 
     #me {
         width: 100%;
+    }
+
+    .project-dark {
+      margin: 40px 0;
     }
 }
 
