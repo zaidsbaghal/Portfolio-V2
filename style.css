@@ -662,18 +662,17 @@ footer p {
 .post-content {
   padding-top: 2%;
   padding-bottom: 2%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 12%;
+  margin-right: 12%;
   text-align: center;
   width: 400px;
   height: fit-content;
   line-height: 22px;
   font-size: 18px;
-  display: inline-block;
 }
 
 .post-text {
-  text-align: center;
+  text-align: left;
   display: inline-block;
 }
 
