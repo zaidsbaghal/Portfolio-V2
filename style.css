@@ -669,6 +669,7 @@ footer p {
   height: fit-content;
   line-height: 22px;
   font-size: 18px;
+  display: inline-block;
 }
 
 .post-text {
