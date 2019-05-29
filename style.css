@@ -665,10 +665,15 @@ footer p {
   margin-left: 15%;
   margin-right: 15%;
   text-align: center;
-  width: 60%;
+  width: 400px;
   height: fit-content;
   line-height: 22px;
   font-size: 18px;
+}
+
+.post-text {
+  text-align: center;
+  display: inline-block;
 }
 
 .post-categories {
