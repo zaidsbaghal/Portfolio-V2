@@ -873,6 +873,11 @@ footer p {
       padding-left: 0px;
     }
 
+    .contact-icons {
+      font-size: 35px;
+      width: 35px;
+    }
+
     .project-dark {
       margin: 40px 0;
     }
