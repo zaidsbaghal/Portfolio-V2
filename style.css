@@ -877,6 +877,10 @@ footer p {
       padding: 15px;
     }
 
+    .contacts-intro{
+      width: 40px;
+    }
+
     .project-dark {
       margin: 40px 0;
     }
