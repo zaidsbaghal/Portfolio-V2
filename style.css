@@ -664,7 +664,7 @@ footer p {
   padding-bottom: 2%;
   margin: 10px auto;
   text-align: center;
-  width: 60%;
+  width: 50%;
   height: fit-content;
   line-height: 22px;
   font-size: 18px;
@@ -863,6 +863,10 @@ footer p {
       padding-top: 10%;
       padding-bottom: 10%;
       font-size: 28px;
+    }
+
+    .post-content {
+      width: 80%;
     }
 
     ul.share-buttons{
