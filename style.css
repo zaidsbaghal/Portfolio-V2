@@ -662,8 +662,7 @@ footer p {
 .post-content {
   padding-top: 2%;
   padding-bottom: 2%;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin: 10px auto;
   text-align: center;
   width: 60%;
   height: fit-content;
