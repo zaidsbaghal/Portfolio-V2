@@ -871,14 +871,14 @@ footer p {
       padding-left: 0px;
     }
 
+    .contacts-intro{
+      width: 40px;
+    }
+
     .contact-icons {
       font-size: 30px;
       width: 30px;
       padding: 15px;
-    }
-
-    .contacts-intro{
-      width: 40px;
     }
 
     .project-dark {
