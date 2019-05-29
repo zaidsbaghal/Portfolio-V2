@@ -872,8 +872,9 @@ footer p {
     }
 
     .contact-icons {
-      font-size: 35px;
-      width: 35px;
+      font-size: 30px;
+      width: 30px;
+      padding: 15px;
     }
 
     .project-dark {
