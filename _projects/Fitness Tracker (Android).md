@@ -1,7 +1,7 @@
 ---
 title: Fitness Tracker (Android)
 github-link: https://github.com/zaidsbaghal/FitnessTrackerAndroid
-featured-img: https://i.ibb.co/zZgwVdx/humphrey-muleba-1119285-unsplash.jpg
+featured-img: https://i.ibb.co/VqYkkH7/danielle-cerullo-782570-unsplash.jpg
 tags: Android
 published: true
 ---

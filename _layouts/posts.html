@@ -16,11 +16,11 @@
     <div class="post-welcome">
 		<div class="featured-img {% if page.inverse-img %} post-welcome--inverse {% endif %}" 
 		{% if page.featured-img %} style="background-image: url('{{ page.featured-img }}')" 
-		{% endif %}>
+    {% endif %}>
 			<div class="post-welcome-text">
             	<h1>{{ page.title }}</h1>
             	<h3>{% if page.author %} {{ page.author }} {% endif %} - {{ page.date | date: "%b %d, %Y" }}</h3>
-			</div>
+      </div>
 		</div>
     </div>
     <body id="post-body">
