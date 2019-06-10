@@ -14,9 +14,7 @@ if (window.innerWidth >= 700) {
 }
 
 if (window.innerWidth < 700) {
-    nav.style.display = "none"
-    nav.style.transform = "translateX(100%)"
-    nav.style.display = "flex"
+
     window.onscroll = function () {
         if (window.pageYOffset > 50) {
             nav.style.paddingTop = "0vh"
