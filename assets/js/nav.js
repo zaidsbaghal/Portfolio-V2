@@ -14,7 +14,6 @@ if (window.innerWidth >= 700) {
 }
 
 if (window.innerWidth < 700) {
-
     window.onscroll = function () {
         if (window.pageYOffset > 50) {
             nav.style.paddingTop = "0vh"
