@@ -3,30 +3,32 @@
 <link rel="stylesheet" href="/../../style.css">
 
 <html id="posts">
-  <a name="top"></a>
-  <head>  
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% include navbar.html %} 
-  </head>
+<a name="top"></a>
 
-    <div class="post-welcome">
-		<div class="featured-img {% if page.inverse-img %} post-welcome--inverse {% endif %}" 
-		{% if page.featured-img %} style="background-image: url('{{ page.featured-img }}')" 
-		{% endif %}>
-			<div class="post-welcome-text">
-        <h1>{{ page.title }}</h1>
-			</div>
-		</div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include navbar.html %}
+</head>
+
+<div class="post-welcome">
+  <div class="featured-img {% if page.inverse-img %} post-welcome--inverse {% endif %}" {% if page.featured-img %}
+    style="background-image: url('{{ page.featured-img }}')" {% endif %}>
+    <div class="post-welcome-text">
+      <h1>{{ page.title }}</h1>
     </div>
-    <body id="post-body">
-      <h1><a class="githubbtn" href= {{ page.github-link }}>Github</a></h1>
-      <div class="post-content">
-            <p>{{ content }}</p>
-        </article>
-      </div>        
-      {% include sharebar.html %}
-      
-      {% include analytics.html %}
-  </body>
-	{% include footer.html %}
+  </div>
+</div>
+
+<body id="post-body">
+  <h1><a class="githubbtn" href={{ page.github-link }}>Github</a></h1>
+  <div class="post-content">
+    <p>{{ content }}</p>
+    </article>
+  </div>
+  {% include sharebar.html %}
+
+  {% include analytics.html %}
+</body>
+{% include footer.html %}
+
 </html>

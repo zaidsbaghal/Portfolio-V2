@@ -7,36 +7,38 @@
 <link rel="stylesheet" href="/../../style.css">
 
 <html id="posts">
-  <a name="top"></a>
-  <head>  
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% include navbar.html %} 
-  </head>
+<a name="top"></a>
 
-    <div class="post-welcome">
-		<div class="featured-img {% if page.inverse-img %} post-welcome--inverse {% endif %}" 
-		{% if page.featured-img %} style="background-image: url('{{ page.featured-img }}')" 
-    {% endif %}>
-			<div class="post-welcome-text">
-            	<h1>{{ page.title }}</h1>
-            	<h3>{% if page.author %} {{ page.author }} {% endif %} - {{ page.date | date: "%b %d, %Y" }}</h3>
-      </div>
-		</div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include navbar.html %}
+</head>
+
+<div class="post-welcome">
+  <div class="featured-img {% if page.inverse-img %} post-welcome--inverse {% endif %}" {% if page.featured-img %}
+    style="background-image: url('{{ page.featured-img }}')" {% endif %}>
+    <div class="post-welcome-text">
+      <h1>{{ page.title }}</h1>
+      <h3>{% if page.author %} {{ page.author }} {% endif %} - {{ page.date | date: "%b %d, %Y" }}</h3>
     </div>
-    <body id="post-body">
-      <div class="post-content">
-        <div class="post-text">
-            <article>
-                <p>{{ content }}</p>
-            </article>
-        </div>
-      </div>        
+  </div>
+</div>
 
-      {% include sharebar.html %}
+<body id="post-body">
+  <div class="post-content">
+    <div class="post-text">
+      <article>
+        <p>{{ content }}</p>
+      </article>
+    </div>
+  </div>
+
+  {% include sharebar.html %}
   <!-- AddToAny BEGIN -->
   <script async src="https://static.addtoany.com/menu/page.js"></script>
   <!-- AddToAny END -->
-      {% include analytics.html %}
-  </body>
-	{% include footer.html %}
+  {% include analytics.html %}
+</body>
+{% include footer.html %}
+
 </html>
