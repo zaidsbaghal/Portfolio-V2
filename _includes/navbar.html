@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 
 <nav>
-  <ul id='navbar'>
-    <li><a href="{% link index.md %}">Home</a></li>
-    <li><a href="{% link blog.md %}">Archive</a></li>
-    <li><a href="{% link projects.md %}">Projects</a></li>
-    <!-- <li><a href="#contact">Contact</a></li> -->
+  <div id="mobile-nav" class="mobile-nav">
+    <div class="burger" onclick="burgerClick()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </div>
+  <ul id='navbar' class="navbar">
+    <li><a href="{% link index.md %}" class="nav-link" onclick="listClick()">Home</a></li>
+    <li><a href="{% link blog.md %}" class="nav-link" onclick="listClick()">Archive</a></li>
+    <li><a href="{% link projects.md %}" class="nav-link" onclick="listClick()">Projects</a></li>
   </ul>
 </nav>
 
