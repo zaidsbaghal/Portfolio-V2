@@ -365,8 +365,6 @@ nav ul li a:hover {
 
 #me {
   margin-bottom: 30px;
-  width: 35%;
-  height: auto;
   border-radius: 50%;
 }
 
@@ -892,7 +890,7 @@ footer p {
     font-size: 62px;
   }
   #me {
-    width: 100%;
+    width: 80%;
   }
   .post-welcome-text {
     padding-top: 10%;

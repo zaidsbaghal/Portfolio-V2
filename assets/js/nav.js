@@ -1,5 +1,6 @@
 
 var nav = document.getElementById("navbar");
+// Test
 var navMobile = document.getElementById("mobile-nav")
 if (window.innerWidth >= 700) {
     window.onscroll = function () {
@@ -14,6 +15,9 @@ if (window.innerWidth >= 700) {
 }
 
 if (window.innerWidth < 700) {
+    nav.style.transition = "none !important";
+    nav.style.transform = "translateX(100%)";
+    nav.style.transition = "0.5s ease-in";
     window.onscroll = function () {
         if (window.pageYOffset > 50) {
             nav.style.paddingTop = "0vh"
