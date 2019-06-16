@@ -641,6 +641,10 @@ footer p {
   background-size: cover;
   background-position: center;
 }
+.post-head {
+  height: fit-content
+  margin: 0 auto;
+}
 
 .githubbtn {
   background-color: #4078c0;
@@ -670,7 +674,7 @@ footer p {
 }
 
 .post-content {
-  padding-top: 2%;
+  padding-top: 5px;
   padding-bottom: 2%;
   margin: 10px auto;
   text-align: left;
@@ -783,6 +787,11 @@ footer p {
 
 .project-dark:hover {
   opacity: 0.7;
+}
+
+.share-buttons {
+  display: inline-block;
+  padding-bottom: 20px;
 }
 
 /* Responsive Desgin */
