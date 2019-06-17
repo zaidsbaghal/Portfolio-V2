@@ -355,7 +355,7 @@ nav ul li a:hover {
 }
 
 .about-me .about-me-header {
-  font-size: 28px;
+  font-size: 36px;
   margin-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 20px;
@@ -413,7 +413,7 @@ nav ul li a:hover {
 
 .work .work-header {
   margin-top: 30px;
-  font-size: 28px;
+  font-size: 36px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
 }
@@ -486,7 +486,7 @@ nav ul li a:hover {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   margin-top: 30px;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
 }
 
@@ -509,7 +509,7 @@ nav ul li a:hover {
 .contact {
   background: #e8e8e8;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .contact-header {
@@ -643,7 +643,8 @@ footer p {
 }
 
 .post-head {
-  height: fit-content margin: 0 auto;
+  height: fit-content;
+  margin: 0 auto;
 }
 
 .githubbtn {
@@ -916,8 +917,8 @@ footer p {
     width: 40px;
   }
   .contact-icons {
-    font-size: 30px;
-    width: 30px;
+    font-size: 40px;
+    width: 40px;
     padding: 15px;
   }
   .project-dark {
