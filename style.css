@@ -650,6 +650,7 @@ footer p {
 .githubbtn {
   background-color: #4078c0;
   color: white;
+  margin-top: 15px;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
