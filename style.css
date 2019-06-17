@@ -640,9 +640,9 @@ footer p {
   background-size: cover;
   background-position: center;
 }
+
 .post-head {
-  height: fit-content
-  margin: 0 auto;
+  height: fit-content margin: 0 auto;
 }
 
 .githubbtn {
