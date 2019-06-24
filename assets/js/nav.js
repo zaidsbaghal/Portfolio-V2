@@ -1,6 +1,5 @@
 
 var nav = document.getElementById("navbar");
-// Test
 var navMobile = document.getElementById("mobile-nav")
 if (window.innerWidth >= 700) {
     window.onscroll = function () {
