@@ -1,3 +1,3 @@
 ## Intro
 
-My current personal website and blog
+My current personal website and blog. 
