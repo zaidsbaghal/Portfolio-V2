@@ -9,7 +9,7 @@ categories: [howto]
    At the beginning of Summer 2018, I had one goal in mind. I wanted my own website. I wanted to build it from scratch. I wanted it to look professional. 
 And finally, I wanted the ability to blog. If you are reading this, I was able to accomplish this goal (at least partially). This post is going to be about 
 the steps I took to accomplish this goal within one summer and how you can do something similar and learn how to build 
-your own website/portofolio from scratch. THIS IS NOT A STEP BY STEP GUIDE. I am simply telling you the personal steps that I took in order to get what I have now. 
+your own website/portfolio from scratch. THIS IS NOT A STEP BY STEP GUIDE. I am simply telling you the personal steps that I took in order to get what I have now. 
 
 ## Things I learned:
 
