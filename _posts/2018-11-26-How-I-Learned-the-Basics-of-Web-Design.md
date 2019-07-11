@@ -32,13 +32,13 @@ do this daily.
 
 ### HTML and CSS
 
-   I started with a free course like the Responsive Web Design Certification on freecodecamp.com. This offered an 
+   I started with a free course like the Responsive Web Design Certification on [freecodecamp](www.freecodecamp.com). This offered an 
 excellent introduction to HTML syntax and I began to grasp things quicker and quicker. After a while you may not 
 even need to finish the course as things will become very repetitive and really unnecessary to memorize. Get the basic 
 syntax down and move on to your own projects. I would recommend starting with the Responsive Web Design Projects at 
 the end of the course. 
    Once I completed all the projects for this course I honestly felt that I could finally learn how to build my own
-site. The last project on freecodecamp.com is actually a portfolio project. You can use this as a backbone for your own site 
+site. The last project on [freecodecamp](www.freecodecamp.com) is actually a portfolio project. You can use this as a backbone for your own site 
 and build off of it. Use recourses like google and stack overflow. Don't be afraid to google questions and find answers
 to the challenges you are having when implementing something. CS is unlike any other subject when learning something
 as when you are struggling to understand something you can google it and look at similar things that people have built in order
