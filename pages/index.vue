@@ -3,10 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        zaidsbaghal
+        Zaid S. Baghal
       </h1>
       <h2 class="subtitle">
-        My website
+        Hello World!
       </h2>
       <div class="links">
         <a
@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
